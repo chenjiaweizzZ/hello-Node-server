@@ -24,9 +24,10 @@ const fs = require('fs')
 // 读取文件成功 123
 
 // promise
-fs.promises.readFile('./abc.txt',{ encoding: 'utf-8'}).then(res => {
+fs.promises.readFile('./abc.txt', { encoding: 'utf-8' }).then(res => {
     console.log(res)
 }).catch(err => {
-    console.log('读取文件失败',err)
+    console.log('读取文件失败', err)
 })
 
+ 
